@@ -16,7 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "NJKRefreshT"
-  s.version      = "1.0.2"
+s
+  s.version      = "1.0."
   s.summary      = "NJKRefreshT is a simple engineering"
 
   # This description is used to generate tags and improve search results.
@@ -88,9 +89,9 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "libNJKRefresh.a", "include/*.{h,m,a}"
-  s.exclude_files = "libNJKRefresh.a"
-
+  s.source_files  = "include/*.{h,m}"
+  s.exclude_files = ""
+  s.vendored_libraries = "include/libNJKRefresh.a"
   # s.public_header_files = "include/*.h"
 
 
@@ -114,8 +115,8 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  # s.framework  = "libNJKRefresh.a"
+  # s.frameworks = "libNJKRefresh.a", "AnotherFramework"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
