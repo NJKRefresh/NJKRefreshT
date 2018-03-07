@@ -87,7 +87,7 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-  s.ios.vendored_libraries = "include/*.a"
+  s.ios.vendored_libraries = "include/*.a" 
   s.source_files  = "include/*.{h,m}"
   s.exclude_files = ""
  
