@@ -66,7 +66,7 @@ Pod::Spec.new do |s|
 
   #  When using multiple platforms
   # s.ios.deployment_target = "7.0"
-  # s.osx.deployment_target = "10.7"
+  # s.osx.deployment_target = "10.0"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
@@ -87,7 +87,7 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-  s.ios.vendored_libraries = "include/*.a" 
+  s.ios.vendored_libraries = "libNJKRefresh.a" 
   s.source_files  = "include/*.{h,m}"
   s.exclude_files = ""
  
