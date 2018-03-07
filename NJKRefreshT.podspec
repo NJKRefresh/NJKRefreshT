@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "NJKRefreshT"
-  s.version      = "1.0.4"
+  s.version      = "1.0.7"
   s.summary      = "NJKRefreshT is a simple engineering"
 
   # This description is used to generate tags and improve search results.
@@ -87,7 +87,8 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-  s.ios.vendored_libraries = "libNJKRefresh.a" 
+  s.preserve_paths = 'libNJKRefresh.a'
+ 
   s.source_files  = "include/*.{h,m}"
   s.exclude_files = ""
  
