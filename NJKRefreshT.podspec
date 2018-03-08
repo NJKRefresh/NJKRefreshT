@@ -87,8 +87,6 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-  s.vendored_libraries  = 'include/*.{a}'
-  s.preserve_paths = "include/*.{framework,a}"
 
   s.source_files  = "include/*.{h,m}"
   s.exclude_files = ""
@@ -107,6 +105,7 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
+  s.preserve_paths = "include/**/*.{framework,a}"
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
@@ -118,7 +117,7 @@ Pod::Spec.new do |s|
 
   # s.framework  = "libNJKRefresh.a"
   # s.frameworks = "libNJKRefresh.a", "AnotherFramework"
-
+  s.vendored_libraries  = 'include/lib/*.{a}'
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
