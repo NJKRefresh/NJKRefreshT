@@ -88,7 +88,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "include/*.{h,m}"
+  s.source_files  = "include","include/lib", "include/*.{h,m}"
   s.exclude_files = ""
  
   # s.public_header_files = "include/*.h"
@@ -115,7 +115,8 @@ Pod::Spec.new do |s|
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
   #
-  s.library = 'NJKRefresh'
+  s.vendored_libraries  = 'include/lib/libNJKRefresh.a'
+  # s.library = 'NJKRefresh'
   # s.framework  = "libNJKRefresh.a"
   # s.frameworks = "libNJKRefresh.a", "AnotherFramework"
   # s.library   = "iconv"
