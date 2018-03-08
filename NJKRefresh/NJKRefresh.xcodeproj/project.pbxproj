@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECEC538D20512C770016AB69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC538C20512C770016AB69 /* AppDelegate.m */; };
+		ECEC539020512C770016AB69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC538F20512C770016AB69 /* ViewController.m */; };
+		ECEC539320512C770016AB69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEC539120512C770016AB69 /* Main.storyboard */; };
+		ECEC539520512C770016AB69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECEC539420512C770016AB69 /* Assets.xcassets */; };
+		ECEC539820512C770016AB69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEC539620512C770016AB69 /* LaunchScreen.storyboard */; };
+		ECEC539B20512C770016AB69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC539A20512C770016AB69 /* main.m */; };
+		ECEC53A520512C770016AB69 /* NJKRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC53A420512C770016AB69 /* NJKRefreshTests.m */; };
+		ECEC53B020512C770016AB69 /* NJKRefreshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEC53AF20512C770016AB69 /* NJKRefreshUITests.m */; };
+		ECEC53D620512CE10016AB69 /* libNJKRefresh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEC53C020512CE10016AB69 /* libNJKRefresh.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECEC53A120512C770016AB69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECEC538020512C760016AB69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECEC538720512C770016AB69;
+			remoteInfo = NJKRefresh;
+		};
+		ECEC53AC20512C770016AB69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECEC538020512C760016AB69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECEC538720512C770016AB69;
+			remoteInfo = NJKRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECEC538820512C770016AB69 /* NJKRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJKRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEC538B20512C770016AB69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECEC538C20512C770016AB69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECEC538E20512C770016AB69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECEC538F20512C770016AB69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECEC539220512C770016AB69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECEC539420512C770016AB69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECEC539720512C770016AB69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECEC539920512C770016AB69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECEC539A20512C770016AB69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECEC53A020512C770016AB69 /* NJKRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NJKRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEC53A420512C770016AB69 /* NJKRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJKRefreshTests.m; sourceTree = "<group>"; };
+		ECEC53A620512C770016AB69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECEC53AB20512C770016AB69 /* NJKRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NJKRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEC53AF20512C770016AB69 /* NJKRefreshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJKRefreshUITests.m; sourceTree = "<group>"; };
+		ECEC53B120512C770016AB69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECEC53BE20512CE10016AB69 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		ECEC53BF20512CE10016AB69 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		ECEC53C020512CE10016AB69 /* libNJKRefresh.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNJKRefresh.a; sourceTree = "<group>"; };
+		ECEC53C120512CE10016AB69 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		ECEC53C220512CE10016AB69 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		ECEC53C320512CE10016AB69 /* CompressImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompressImage.h; sourceTree = "<group>"; };
+		ECEC53C420512CE10016AB69 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		ECEC53C520512CE10016AB69 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		ECEC53C620512CE10016AB69 /* SomeSupprt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeSupprt.h; sourceTree = "<group>"; };
+		ECEC53C720512CE10016AB69 /* AFImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageDownloader.h; sourceTree = "<group>"; };
+		ECEC53C820512CE10016AB69 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAutoPurgingImageCache.h; sourceTree = "<group>"; };
+		ECEC53C920512CE10016AB69 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		ECEC53CA20512CE10016AB69 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		ECEC53CB20512CE10016AB69 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		ECEC53CC20512CE10016AB69 /* UserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaults.h; sourceTree = "<group>"; };
+		ECEC53CD20512CE10016AB69 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		ECEC53CE20512CE10016AB69 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		ECEC53CF20512CE10016AB69 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		ECEC53D020512CE10016AB69 /* AESCipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCipher.h; sourceTree = "<group>"; };
+		ECEC53D120512CE10016AB69 /* NetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTool.h; sourceTree = "<group>"; };
+		ECEC53D220512CE10016AB69 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		ECEC53D320512CE10016AB69 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		ECEC53D420512CE10016AB69 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		ECEC53D520512CE10016AB69 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECEC538520512C770016AB69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEC53D620512CE10016AB69 /* libNJKRefresh.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEC539D20512C770016AB69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEC53A820512C770016AB69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECEC537F20512C760016AB69 = {
+			isa = PBXGroup;
+			children = (
+				ECEC538A20512C770016AB69 /* NJKRefresh */,
+				ECEC53BD20512CE10016AB69 /* include */,
+				ECEC53A320512C770016AB69 /* NJKRefreshTests */,
+				ECEC53AE20512C770016AB69 /* NJKRefreshUITests */,
+				ECEC538920512C770016AB69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECEC538920512C770016AB69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC538820512C770016AB69 /* NJKRefresh.app */,
+				ECEC53A020512C770016AB69 /* NJKRefreshTests.xctest */,
+				ECEC53AB20512C770016AB69 /* NJKRefreshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECEC538A20512C770016AB69 /* NJKRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC538B20512C770016AB69 /* AppDelegate.h */,
+				ECEC538C20512C770016AB69 /* AppDelegate.m */,
+				ECEC538E20512C770016AB69 /* ViewController.h */,
+				ECEC538F20512C770016AB69 /* ViewController.m */,
+				ECEC539120512C770016AB69 /* Main.storyboard */,
+				ECEC539420512C770016AB69 /* Assets.xcassets */,
+				ECEC539620512C770016AB69 /* LaunchScreen.storyboard */,
+				ECEC539920512C770016AB69 /* Info.plist */,
+				ECEC539A20512C770016AB69 /* main.m */,
+			);
+			path = NJKRefresh;
+			sourceTree = "<group>";
+		};
+		ECEC53A320512C770016AB69 /* NJKRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC53A420512C770016AB69 /* NJKRefreshTests.m */,
+				ECEC53A620512C770016AB69 /* Info.plist */,
+			);
+			path = NJKRefreshTests;
+			sourceTree = "<group>";
+		};
+		ECEC53AE20512C770016AB69 /* NJKRefreshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC53AF20512C770016AB69 /* NJKRefreshUITests.m */,
+				ECEC53B120512C770016AB69 /* Info.plist */,
+			);
+			path = NJKRefreshUITests;
+			sourceTree = "<group>";
+		};
+		ECEC53BD20512CE10016AB69 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC53BE20512CE10016AB69 /* AFSecurityPolicy.h */,
+				ECEC53BF20512CE10016AB69 /* AFNetworkReachabilityManager.h */,
+				ECEC53C020512CE10016AB69 /* libNJKRefresh.a */,
+				ECEC53C120512CE10016AB69 /* AFURLSessionManager.h */,
+				ECEC53C220512CE10016AB69 /* AFURLRequestSerialization.h */,
+				ECEC53C320512CE10016AB69 /* CompressImage.h */,
+				ECEC53C420512CE10016AB69 /* UIButton+AFNetworking.h */,
+				ECEC53C520512CE10016AB69 /* UIImageView+AFNetworking.h */,
+				ECEC53C620512CE10016AB69 /* SomeSupprt.h */,
+				ECEC53C720512CE10016AB69 /* AFImageDownloader.h */,
+				ECEC53C820512CE10016AB69 /* AFAutoPurgingImageCache.h */,
+				ECEC53C920512CE10016AB69 /* UIWebView+AFNetworking.h */,
+				ECEC53CA20512CE10016AB69 /* UIActivityIndicatorView+AFNetworking.h */,
+				ECEC53CB20512CE10016AB69 /* AFURLResponseSerialization.h */,
+				ECEC53CC20512CE10016AB69 /* UserDefaults.h */,
+				ECEC53CD20512CE10016AB69 /* UIImage+AFNetworking.h */,
+				ECEC53CE20512CE10016AB69 /* AFNetworking.h */,
+				ECEC53CF20512CE10016AB69 /* UIProgressView+AFNetworking.h */,
+				ECEC53D020512CE10016AB69 /* AESCipher.h */,
+				ECEC53D120512CE10016AB69 /* NetworkTool.h */,
+				ECEC53D220512CE10016AB69 /* UIKit+AFNetworking.h */,
+				ECEC53D320512CE10016AB69 /* UIRefreshControl+AFNetworking.h */,
+				ECEC53D420512CE10016AB69 /* AFHTTPSessionManager.h */,
+				ECEC53D520512CE10016AB69 /* AFNetworkActivityIndicatorManager.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECEC538720512C770016AB69 /* NJKRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECEC53B420512C770016AB69 /* Build configuration list for PBXNativeTarget "NJKRefresh" */;
+			buildPhases = (
+				ECEC538420512C770016AB69 /* Sources */,
+				ECEC538520512C770016AB69 /* Frameworks */,
+				ECEC538620512C770016AB69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NJKRefresh;
+			productName = NJKRefresh;
+			productReference = ECEC538820512C770016AB69 /* NJKRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECEC539F20512C770016AB69 /* NJKRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECEC53B720512C770016AB69 /* Build configuration list for PBXNativeTarget "NJKRefreshTests" */;
+			buildPhases = (
+				ECEC539C20512C770016AB69 /* Sources */,
+				ECEC539D20512C770016AB69 /* Frameworks */,
+				ECEC539E20512C770016AB69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECEC53A220512C770016AB69 /* PBXTargetDependency */,
+			);
+			name = NJKRefreshTests;
+			productName = NJKRefreshTests;
+			productReference = ECEC53A020512C770016AB69 /* NJKRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECEC53AA20512C770016AB69 /* NJKRefreshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECEC53BA20512C770016AB69 /* Build configuration list for PBXNativeTarget "NJKRefreshUITests" */;
+			buildPhases = (
+				ECEC53A720512C770016AB69 /* Sources */,
+				ECEC53A820512C770016AB69 /* Frameworks */,
+				ECEC53A920512C770016AB69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECEC53AD20512C770016AB69 /* PBXTargetDependency */,
+			);
+			name = NJKRefreshUITests;
+			productName = NJKRefreshUITests;
+			productReference = ECEC53AB20512C770016AB69 /* NJKRefreshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECEC538020512C760016AB69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = NJK;
+				TargetAttributes = {
+					ECEC538720512C770016AB69 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					ECEC539F20512C770016AB69 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECEC538720512C770016AB69;
+					};
+					ECEC53AA20512C770016AB69 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECEC538720512C770016AB69;
+					};
+				};
+			};
+			buildConfigurationList = ECEC538320512C760016AB69 /* Build configuration list for PBXProject "NJKRefresh" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECEC537F20512C760016AB69;
+			productRefGroup = ECEC538920512C770016AB69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECEC538720512C770016AB69 /* NJKRefresh */,
+				ECEC539F20512C770016AB69 /* NJKRefreshTests */,
+				ECEC53AA20512C770016AB69 /* NJKRefreshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECEC538620512C770016AB69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEC539820512C770016AB69 /* LaunchScreen.storyboard in Resources */,
+				ECEC539520512C770016AB69 /* Assets.xcassets in Resources */,
+				ECEC539320512C770016AB69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEC539E20512C770016AB69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEC53A920512C770016AB69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECEC538420512C770016AB69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEC539020512C770016AB69 /* ViewController.m in Sources */,
+				ECEC539B20512C770016AB69 /* main.m in Sources */,
+				ECEC538D20512C770016AB69 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEC539C20512C770016AB69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEC53A520512C770016AB69 /* NJKRefreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEC53A720512C770016AB69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEC53B020512C770016AB69 /* NJKRefreshUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECEC53A220512C770016AB69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECEC538720512C770016AB69 /* NJKRefresh */;
+			targetProxy = ECEC53A120512C770016AB69 /* PBXContainerItemProxy */;
+		};
+		ECEC53AD20512C770016AB69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECEC538720512C770016AB69 /* NJKRefresh */;
+			targetProxy = ECEC53AC20512C770016AB69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECEC539120512C770016AB69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECEC539220512C770016AB69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECEC539620512C770016AB69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECEC539720512C770016AB69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECEC53B220512C770016AB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECEC53B320512C770016AB69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECEC53B520512C770016AB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NJKRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/include",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RSC.NJKRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECEC53B620512C770016AB69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NJKRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/include",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RSC.NJKRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECEC53B820512C770016AB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NJKRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RSC.NJKRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NJKRefresh.app/NJKRefresh";
+			};
+			name = Debug;
+		};
+		ECEC53B920512C770016AB69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NJKRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RSC.NJKRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NJKRefresh.app/NJKRefresh";
+			};
+			name = Release;
+		};
+		ECEC53BB20512C770016AB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NJKRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RSC.NJKRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NJKRefresh;
+			};
+			name = Debug;
+		};
+		ECEC53BC20512C770016AB69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NJKRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RSC.NJKRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NJKRefresh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECEC538320512C760016AB69 /* Build configuration list for PBXProject "NJKRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEC53B220512C770016AB69 /* Debug */,
+				ECEC53B320512C770016AB69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECEC53B420512C770016AB69 /* Build configuration list for PBXNativeTarget "NJKRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEC53B520512C770016AB69 /* Debug */,
+				ECEC53B620512C770016AB69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECEC53B720512C770016AB69 /* Build configuration list for PBXNativeTarget "NJKRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEC53B820512C770016AB69 /* Debug */,
+				ECEC53B920512C770016AB69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECEC53BA20512C770016AB69 /* Build configuration list for PBXNativeTarget "NJKRefreshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEC53BB20512C770016AB69 /* Debug */,
+				ECEC53BC20512C770016AB69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECEC538020512C760016AB69 /* Project object */;
+}
