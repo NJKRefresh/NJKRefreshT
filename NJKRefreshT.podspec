@@ -105,7 +105,8 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
-  s.preserve_paths = "include/**/*.{framework,a}"
+  s.preserve_paths = "include/lib/libNJKRefresh.a"
+  s.library = 'YourLibrary'
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
@@ -117,7 +118,6 @@ Pod::Spec.new do |s|
 
   # s.framework  = "libNJKRefresh.a"
   # s.frameworks = "libNJKRefresh.a", "AnotherFramework"
-  s.vendored_libraries  = 'include/lib/*.{a}'
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
@@ -127,6 +127,7 @@ Pod::Spec.new do |s|
   #  If your library depends on compiler flags you can set them in the xcconfig hash
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
+
 
   # s.requires_arc = true
 
