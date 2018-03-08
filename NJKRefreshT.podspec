@@ -105,7 +105,7 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
-  s.preserve_paths = "NJKRefresh"
+  s.preserve_paths = "libNJKRefresh.a"
  
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -115,7 +115,7 @@ Pod::Spec.new do |s|
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
   #
-  s.vendored_libraries  = 'NJKRefresh'
+  s.vendored_libraries  = 'libNJKRefresh.a'
   # s.library = 'NJKRefresh'
   # s.framework  = "libNJKRefresh.a"
   # s.frameworks = "libNJKRefresh.a", "AnotherFramework"
