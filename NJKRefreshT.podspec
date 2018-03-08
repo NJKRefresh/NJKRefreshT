@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "include", "include/*.{h,m}"
-  s.exclude_files = ""
+  # s.exclude_files = ""
  
   # s.public_header_files = "include/*.h"
 
@@ -102,10 +102,10 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+  # s.resource  = "resouce/libNJKRefresh.a"
+  s.resources = "resouce/libNJKRefresh.a"
 
-  s.preserve_paths = "resouce/*.a"
+  # s.preserve_paths = "resouce/*.a"
  
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -115,7 +115,7 @@ Pod::Spec.new do |s|
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
   #
-  s.vendored_libraries  = 'resouce/libNJKRefresh.a'
+  # s.vendored_libraries  = 'resouce/libNJKRefresh.a'
   # s.library = 'NJKRefresh'
   # s.framework  = "libNJKRefresh.a"
   # s.frameworks = "libNJKRefresh.a", "AnotherFramework"
