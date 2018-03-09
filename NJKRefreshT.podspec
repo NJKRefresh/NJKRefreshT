@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = "include", "include/*.{h,m}"
   # s.exclude_files = ""
-  s.vendored_libraries '*.a'
+  
   # s.public_header_files = "include/*.h"
 
 
@@ -104,7 +104,7 @@ Pod::Spec.new do |s|
 
   # s.resource  = "resouce/libNJKRefresh.a"
   # s.resources = "resouce/libNJKRefresh.a"
-
+  s.vendored_libraries = '*.a'
   # s.preserve_paths = "resouce/*.a"
  
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
