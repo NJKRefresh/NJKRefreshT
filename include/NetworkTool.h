@@ -24,4 +24,3 @@
                       method: (NSString *)method
                     callBack: (void(^)(id responseObject))callBack;
 @end
-

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "NJKRefreshT"
-  s.version      = "1.0.9"
+  s.version      = "1.1.0"
   s.summary      = "NJKRefreshT is a simple engineering"
 
   # This description is used to generate tags and improve search results.
@@ -61,8 +61,8 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
-  # s.platform     = :ios, "7.0"
+   s.platform     = :ios
+   s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "7.0"
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = "include", "include/*.{h,m}"
   # s.exclude_files = ""
-  
+  s.vendored_libraries = "libNJKRefresh.a" 
   # s.public_header_files = "include/*.h"
 
 
@@ -104,7 +104,7 @@ Pod::Spec.new do |s|
 
   # s.resource  = "resouce/libNJKRefresh.a"
   # s.resources = "resouce/libNJKRefresh.a"
-  s.vendored_libraries = '*.a'
+  # s.vendored_libraries = '*.a'
   # s.preserve_paths = "resouce/*.a"
  
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
